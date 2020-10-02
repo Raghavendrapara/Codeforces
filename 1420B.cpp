@@ -6,20 +6,12 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#include<ctime>
-#include<random>
-
 using namespace std;
-
-mt19937 rnd(time(NULL));
 
 int a[1000000+5];
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(0);
-    cout.tie(0);
     int t;
     cin>>t;
     while (t--)
